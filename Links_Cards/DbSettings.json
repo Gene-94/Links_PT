@@ -1,0 +1,5 @@
+﻿{
+  "ConnectionStrings": {
+    "ApiDbContext": "server=localhost; port=3306; database=Links_Cards;user=root;password=Data_Master369"
+  }
+}
