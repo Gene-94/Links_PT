@@ -1043,9 +1043,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yevhe\\OneDrive\\Documentos\\Curso_Programador_IEFP\\ASP_NET-Web_API\\Links_Continuação\\Links_Messages\\Links_Cards.csproj",
-      "projectName": "Links_Cards",
-      "projectPath": "C:\\Users\\yevhe\\OneDrive\\Documentos\\Curso_Programador_IEFP\\ASP_NET-Web_API\\Links_Continuação\\Links_Messages\\Links_Cards.csproj",
+      "projectUniqueName": "C:\\Users\\yevhe\\OneDrive\\Documentos\\Curso_Programador_IEFP\\ASP_NET-Web_API\\Links_Continuação\\Links_Messages\\Links_Messages.csproj",
+      "projectName": "Links_Messages",
+      "projectPath": "C:\\Users\\yevhe\\OneDrive\\Documentos\\Curso_Programador_IEFP\\ASP_NET-Web_API\\Links_Continuação\\Links_Messages\\Links_Messages.csproj",
       "packagesPath": "C:\\Users\\yevhe\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\yevhe\\OneDrive\\Documentos\\Curso_Programador_IEFP\\ASP_NET-Web_API\\Links_Continuação\\Links_Messages\\obj\\",
       "projectStyle": "PackageReference",

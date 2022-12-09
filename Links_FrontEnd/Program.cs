@@ -1,4 +1,7 @@
-namespace Trabalho_Final
+
+using Microsoft.AspNetCore.Mvc.RazorPages;
+
+namespace Links_FrontEnd
 {
     public class Program
     {
@@ -7,7 +10,12 @@ namespace Trabalho_Final
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-            builder.Services.AddControllersWithViews();
+            builder.Services.AddMvc().AddRazorPagesOptions(options =>
+            {
+                options.RootDirectory = "/Pages";
+                options.Conventions.AddPageRoute("/Index", "/Home");
+            });
+
 
             var app = builder.Build();
 
@@ -26,9 +34,10 @@ namespace Trabalho_Final
 
             app.UseAuthorization();
 
-            app.MapControllerRoute(
-                name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapRazorPages();
+            });
 
             app.Run();
         }

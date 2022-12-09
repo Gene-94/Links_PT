@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Trabalho_Final.Models
+namespace Links_FrontEnd.Models
 {
     public class Client
     {

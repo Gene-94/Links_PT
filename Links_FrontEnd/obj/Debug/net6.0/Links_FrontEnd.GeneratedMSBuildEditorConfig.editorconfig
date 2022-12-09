@@ -1,0 +1,85 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Links_FrontEnd
+build_property.RootNamespace = Links_FrontEnd
+build_property.ProjectDir = C:\Users\yevhe\OneDrive\Documentos\Curso_Programador_IEFP\ASP_NET-Web_API\Links_Continuação\Links_FrontEnd\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\yevhe\OneDrive\Documentos\Curso_Programador_IEFP\ASP_NET-Web_API\Links_Continuação\Links_FrontEnd
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/yevhe/OneDrive/Documentos/Curso_Programador_IEFP/ASP_NET-Web_API/Links_Continuação/Links_FrontEnd/Pages/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yevhe/OneDrive/Documentos/Curso_Programador_IEFP/ASP_NET-Web_API/Links_Continuação/Links_FrontEnd/Pages/Client/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50XERhc2hib2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yevhe/OneDrive/Documentos/Curso_Programador_IEFP/ASP_NET-Web_API/Links_Continuação/Links_FrontEnd/Pages/Client/Dashboard_1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50XERhc2hib2FyZF8xLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yevhe/OneDrive/Documentos/Curso_Programador_IEFP/ASP_NET-Web_API/Links_Continuação/Links_FrontEnd/Pages/Client/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yevhe/OneDrive/Documentos/Curso_Programador_IEFP/ASP_NET-Web_API/Links_Continuação/Links_FrontEnd/Pages/Client/NewCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50XE5ld0NhcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yevhe/OneDrive/Documentos/Curso_Programador_IEFP/ASP_NET-Web_API/Links_Continuação/Links_FrontEnd/Pages/Client/NewClient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50XE5ld0NsaWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yevhe/OneDrive/Documentos/Curso_Programador_IEFP/ASP_NET-Web_API/Links_Continuação/Links_FrontEnd/Pages/Home/New_User.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxOZXdfVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yevhe/OneDrive/Documentos/Curso_Programador_IEFP/ASP_NET-Web_API/Links_Continuação/Links_FrontEnd/Pages/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yevhe/OneDrive/Documentos/Curso_Programador_IEFP/ASP_NET-Web_API/Links_Continuação/Links_FrontEnd/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yevhe/OneDrive/Documentos/Curso_Programador_IEFP/ASP_NET-Web_API/Links_Continuação/Links_FrontEnd/Pages/LogIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nSW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yevhe/OneDrive/Documentos/Curso_Programador_IEFP/ASP_NET-Web_API/Links_Continuação/Links_FrontEnd/Pages/Manage/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlXERhc2hib2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yevhe/OneDrive/Documentos/Curso_Programador_IEFP/ASP_NET-Web_API/Links_Continuação/Links_FrontEnd/Pages/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yevhe/OneDrive/Documentos/Curso_Programador_IEFP/ASP_NET-Web_API/Links_Continuação/Links_FrontEnd/Pages/Manage/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlXE5ldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yevhe/OneDrive/Documentos/Curso_Programador_IEFP/ASP_NET-Web_API/Links_Continuação/Links_FrontEnd/Pages/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yevhe/OneDrive/Documentos/Curso_Programador_IEFP/ASP_NET-Web_API/Links_Continuação/Links_FrontEnd/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yevhe/OneDrive/Documentos/Curso_Programador_IEFP/ASP_NET-Web_API/Links_Continuação/Links_FrontEnd/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yevhe/OneDrive/Documentos/Curso_Programador_IEFP/ASP_NET-Web_API/Links_Continuação/Links_FrontEnd/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ii71asckqb

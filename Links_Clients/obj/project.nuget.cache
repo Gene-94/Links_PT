@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sXrgX8aQritnvsQ8bu347hwk1feG6/7NIESz65riLsvzQrayexQ4gBepkQGauzw2nhc577Hpk3K+rnUGHrh+tA==",
+  "dgSpecHash": "qa57YrfY3rEElXoeEzChsknA+BbJNToaxJO3hzmKwxMvP7da52JopA8U9pzmVk2yfuk+POgXHlciJlrY9vIWGg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yevhe\\OneDrive\\Documentos\\Curso_Programador_IEFP\\ASP_NET-Web_API\\Exercicios\\Links_Clients\\Links_Clients.csproj",
+  "projectFilePath": "C:\\Users\\yevhe\\OneDrive\\Documentos\\Curso_Programador_IEFP\\ASP_NET-Web_API\\Links_Continuação\\Links_Clients\\Links_Clients.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yevhe\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\yevhe\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
