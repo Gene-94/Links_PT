@@ -20,7 +20,7 @@ namespace Links_Cards.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     SenderNr = table.Column<long>(type: "bigint", nullable: false),
-                    receiverNr = table.Column<long>(type: "bigint", nullable: false),
+                    ReceiverNr = table.Column<long>(type: "bigint", nullable: false),
                     DateSent = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     Title = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),

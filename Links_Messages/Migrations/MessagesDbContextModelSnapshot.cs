@@ -39,7 +39,7 @@ namespace Links_Cards.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<long>("receiverNr")
+                    b.Property<long>("ReceiverNr")
                         .HasColumnType("bigint");
 
                     b.HasKey("Id");

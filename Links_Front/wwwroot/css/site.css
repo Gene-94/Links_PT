@@ -1,16 +1,16 @@
 html {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 @media (min-width: 768px) {
-    html {
-        font-size: 16px;
-    }
+  html {
+    font-size: 16px;
+  }
 }
 
 html {
-    position: relative;
-    min-height: 100%;
+  position: relative;
+  min-height: 100%;
 }
 
 body {
@@ -18,31 +18,32 @@ body {
     background-color: #5E819E;
     background-image: url("/content/background_img.jpg");
     min-height: 100%;
-    background-size: cover;
+    background-size:cover;
     color: white;
 }
 
 #footer_Override {
     position: absolute;
-    bottom: 0;
+    bottom:0;
     height: 55px;
     width: 100%;
     background-color: rgba(255,255,255,0.6);
-    font-weight: 500;
+    font-weight:500;
     font-size: large;
 }
 
 
-    #footer_Override div {
-        color: black;
-    }
+#footer_Override div{
+color: black;
+}
 
-        #footer_Override div a {
-            color: wheat;
-            text-shadow: 2px 2px 3px black;
-        }
+#footer_Override div a{
+    color: wheat;
+    text-shadow: 2px 2px 3px black;
+}
 
 .CTA.btn {
+
 }
 
 
@@ -55,23 +56,24 @@ body {
     transform: translate(-50%, -50%);
 }
 
-#Home_Login a {
+#Home_Login a{
     color: white;
     font-size: x-large;
     font-weight: 600;
     position: relative;
+
 }
 
-    #Home_Login a:hover {
-        color: wheat;
-        font-weight: 700;
-    }
+#Home_Login a:hover {
+    color: wheat;
+    font-weight: 700;
+}
 
 #Home-alpha-tray h1 {
     font-family: 'Source Code Pro', monospace;
     color: white;
 }
-
+                                            
 #HomePage-Btn {
     margin-top: 20px;
     padding: 1.2vw 3vw;
@@ -80,9 +82,9 @@ body {
     font-weight: bold;
 }
 
-    #HomePage-Btn:hover {
-        color: wheat;
-    }
+#HomePage-Btn:hover {
+    color: wheat;
+}
 
 #Login_Container {
     color: black;
@@ -94,7 +96,7 @@ body {
 }
 
     #Login_Container span {
-        display: block;
+       display:block;
     }
 
     #Login_Container label {
@@ -109,34 +111,34 @@ body {
         width: 103px;
     }
 
-@media screen and (min-width: 850px) {
+    @media screen and (min-width: 850px) {
 
-    #Login_Container {
-        border-radius: 2vw;
-        padding: 4vw;
-        margin-top: 4vw;
-        width: 31vw;
+        #Login_Container {
+            border-radius: 2vw;
+            padding: 4vw;
+            margin-top: 4vw;
+            width: 31vw;
+        }
+
+            #Login_Container label {
+                font-weight: 600;
+            }
+
+            #Login_Container input {
+                margin-bottom: 3.5vw;
+            }
+
+            #Login_Container .btn {
+                width: 11.5vw;
+            }
     }
-
-        #Login_Container label {
-            font-weight: 600;
-        }
-
-        #Login_Container input {
-            margin-bottom: 3.5vw;
-        }
-
-        #Login_Container .btn {
-            width: 11.5vw;
-        }
-}
 
 
 #Navbar_logo {
     font-family: 'Source Code Pro', monospace;
     font-weight: 700;
     font-size: 35px;
-    padding: 0;
+    padding:0;
 }
 
     #Navbar_logo:hover {
@@ -155,14 +157,13 @@ body {
     padding-top: 15px;
 }
 
-    #Adm_Controls_Container p {
-        font-size: 12px;
-    }
-
-    #Adm_Controls_Container .row {
-        position: relative;
-        margin-top: 18px;
-    }
+#Adm_Controls_Container p {
+    font-size: 12px;
+}
+#Adm_Controls_Container .row {
+    position: relative;
+    margin-top: 18px;
+}
 
     #Adm_Controls_Container h3 {
         margin-bottom: 37px;
@@ -176,23 +177,23 @@ body {
     margin-top: 4%;
 }
 
-    .Dark_Container h1 {
-        margin-bottom: 7%;
-        text-shadow: 2px 2px 7px wheat;
-    }
+.Dark_Container h1 {
+    margin-bottom: 7%;
+    text-shadow: 2px 2px 7px wheat;
+}
 
 .New_Container {
     background-color: rgba(0,0,0,0.55);
-    border-radius: 20px;
+    border-radius:20px;
     padding: 3% 2%;
     margin-bottom: 4%;
 }
 
-    .New_Container .btn-primary {
-        font-weight: 600;
-        width: 135px;
-    }
+.New_Container .btn-primary {
+    font-weight: 600;
+    width: 135px;
+}
 
-    .New_Container div {
-        margin-top: 2%;
-    }
+.New_Container div {
+    margin-top: 2%;
+}

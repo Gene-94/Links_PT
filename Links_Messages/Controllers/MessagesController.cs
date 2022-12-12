@@ -26,8 +26,8 @@ namespace Links_Cards.Controllers
         {
             try
             {
-                int _receiverNr = CardID + LINKS_PREFIX;
-                var _Messages = await db.Messages.Where(m => m.receiverNr == _receiverNr).ToListAsync();
+                int _ReceiverNr = CardID + LINKS_PREFIX;
+                var _Messages = await db.Messages.Where(m => m.ReceiverNr == _ReceiverNr).ToListAsync();
                 return _Messages==null?NotFound("nothing to show"):Ok(_Messages);
             }
             catch (Exception ex)
@@ -43,9 +43,9 @@ namespace Links_Cards.Controllers
         {
             try
             {
-                int _receiverNr = CardID + LINKS_PREFIX;
+                int _ReceiverNr = CardID + LINKS_PREFIX;
                 var _Message = await db.Messages.SingleOrDefaultAsync(m => m.Id == MessageID);
-                return (_Message == null || _Message.receiverNr != _receiverNr) ? BadRequest() : Ok(_Message);
+                return (_Message == null || _Message.ReceiverNr != _ReceiverNr) ? BadRequest() : Ok(_Message);
             }
             catch (Exception ex)
             {
@@ -83,7 +83,7 @@ namespace Links_Cards.Controllers
             {
                 int _nr = CardID + LINKS_PREFIX;
                 var _Message = await db.Messages.SingleOrDefaultAsync(m => m.Id == MessageID);
-                if (_Message == null || _Message.receiverNr != _nr) return BadRequest();
+                if (_Message == null || _Message.ReceiverNr != _nr) return BadRequest();
                 db.Messages.Remove(_Message);
                 await db.SaveChangesAsync();
                 return NoContent();
@@ -104,7 +104,7 @@ namespace Links_Cards.Controllers
             try
             {
                 int _nr = CardID + LINKS_PREFIX;
-                var _Messages = await db.Messages.Where(m => m.receiverNr == _nr).ToListAsync();
+                var _Messages = await db.Messages.Where(m => m.ReceiverNr == _nr).ToListAsync();
                 if (_Messages == null) return BadRequest();
                 db.Messages.RemoveRange(_Messages);
                 await db.SaveChangesAsync();
